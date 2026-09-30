@@ -1,0 +1,88 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="/" class="nav-logo">
+                <img src="{% static 'images/amazon_logo.png' %}" alt="Amazon.in">
+            </a>
+            <div class="nav-deliver">
+                <span class="deliver-icon">
+                    <i class="fa-solid fa-location-dot"></i>
+                </span>
+                <div class="deliver-text">
+                    <span class="line1">Deliver to Harshu</span>
+                    <span class="line2">Sonipat 131021</span>
+                </div>
+            </div>
+            <div class="nav-search">
+                <select class="search-category">
+                    <option>All</option>
+                    <option>Electronics</option>
+                    <option>Books</option>
+                    <option>Clothing</option>
+                    <option>Home &amp; Kitchen</option>
+                    <option>Mobiles</option>
+                    <option>Computers</option>
+                    <option>Beauty</option>
+                    <option>Toys &amp; Games</option>
+                    <option>Sports</option>
+                </select>
+                <input type="text" class="search-input" placeholder="Search Amazon.in">
+
+                <button class="search-button">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </button>
+            </div>
+            <div class="nav-lang">
+                <img src="{% static 'images/indian_flag.png' %}" alt="IN">
+                <span>EN</span>
+                <span class="dropdown-arrow">▾</span>
+            </div>
+            <div class="nav-signin">
+                <span class="line1">Hello, User</span>
+                <span class="line2">Account &amp; Lists <span class="dropdown-arrow">▾</span></span>
+            </div>
+            <div class="nav-orders">
+                <span class="line1">Returns</span>
+                <span class="line2">&amp; Orders</span>
+            </div>
+            <a href="#" class="nav-cart">
+                <span class="cart-count">0</span>
+                <span class="cart-icon"><i class="fa-solid fa-cart-shopping"></i></span>
+                <span class="cart-text">Cart</span>
+            </a>
+        </nav>
+        <div class="sub-navbar">
+            <div class="sub-nav-all">
+                <i class="fa-solid fa-bars"></i>
+                <span>All</span>
+            </div>
+            <a href="#" class="sub-nav-link">Fresh</a>
+            <a href="#" class="sub-nav-link">Keep Shopping for</a>
+            <a href="#" class="sub-nav-link">Mobiles</a>
+            <a href="#" class="sub-nav-link">Amazon Pay</a>
+            <a href="#" class="sub-nav-link">Today's Deals</a>
+            <a href="#" class="sub-nav-link">Prime Video</a>
+            <a href="#" class="sub-nav-link">Sell</a>
+            <a href="#" class="sub-nav-link">Gift Cards</a>
+            <a href="#" class="sub-nav-link">Amazon Business</a>
+            <a href="#" class="sub-nav-link">Buy Again</a>
+            <div class="sub-nav-deal">
+                <span class="deal-fire">🔥</span>
+                <span>Great Indian Festival | Shop early deals now</span>
+            </div>
+    </header>
+    </div>
+</body>
+
+</html>
